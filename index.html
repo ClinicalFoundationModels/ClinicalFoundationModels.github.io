@@ -1,541 +1,184 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
+	<head>
+		<title>Stellar by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="ClinicalFoundationModels">
-  <meta name="keywords" content="LLM">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="ClinicalFoundationModels" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://ClinicalFoundationModels.github.io/" />
-	<!-- <meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/Universal-NER.png" /> -->
-  <title>ClinicalFoundationModels</title>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/954/954591.png">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Stellar</h1>
+						<p>Just another free, fully responsive site template<br />
+						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</header>
 
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">First Section</a></li>
+							<li><a href="#second">Second Section</a></li>
+							<li><a href="#cta">Get Started</a></li>
+						</ul>
+					</nav>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
-  <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.27.0/gradio.js"></script>
-</head>
+				<!-- Main -->
+					<div id="main">
 
-<style>
-  .expandable-card .card-text-container {
-    max-height: 200px;
-    overflow-y: hidden;
-    position: relative;
-  }
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Ipsum sed adipiscing</h2>
+										</header>
+										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
+										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
+										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										<ul class="actions">
+											<li><a href="generic.html" class="button">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+								</div>
+							</section>
 
-  .expandable-card.expanded .card-text-container {
-    max-height: none;
-  }
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Magna veroeros</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon solid major style1 fa-code"></span>
+										<h3>Ipsum consequat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Amed sed feugiat</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-gem"></span>
+										<h3>Dolor nullam</h3>
+										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+									</li>
+								</ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
 
-  .expand-btn {
-    position: relative;
-    display: none;
-    background-color: rgba(255, 255, 255, 0.8);
-    /* margin-top: -20px; */
-    /* justify-content: center; */
-    color: #510c75;
-    border-color: transparent;
-  }
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Ipsum consequat</h2>
+									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon solid fa-code-branch"></span>
+										<strong>5,120</strong> Etiam
+									</li>
+									<li class="style2">
+										<span class="icon fa-folder-open"></span>
+										<strong>8,192</strong> Magna
+									</li>
+									<li class="style3">
+										<span class="icon solid fa-signal"></span>
+										<strong>2,048</strong> Tempus
+									</li>
+									<li class="style4">
+										<span class="icon solid fa-laptop"></span>
+										<strong>4,096</strong> Aliquam
+									</li>
+									<li class="style5">
+										<span class="icon fa-gem"></span>
+										<strong>1,024</strong> Nullam
+									</li>
+								</ul>
+								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
 
-  .expand-btn:hover {
-    background-color: rgba(200, 200, 200, 0.8);
-    text-decoration: none;
-    border-color: transparent;
-    color: #510c75;
-  }
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>Congue imperdiet</h2>
+									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="generic.html" class="button primary">Get Started</a></li>
+										<li><a href="generic.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
 
-  .expand-btn:focus {
-    outline: none;
-    text-decoration: none;
-  }
+					</div>
 
-  .expandable-card:not(.expanded) .card-text-container:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 90px;
-    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1));
-  }
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Etiam feugiat</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">information@untitled.tld</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
 
-  .expandable-card:not(.expanded) .expand-btn {
-    margin-top: -40px;
-  }
+			</div>
 
-  .card-body {
-    padding-bottom: 5px;
-  }
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-  .vertical-flex-layout {
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .figure-img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .adjustable-font-size {
-    font-size: calc(0.5rem + 2vw);
-  }
-
-  .chat-history {
-    flex-grow: 1;
-    overflow-y: auto;
-    /* overflow-x: hidden; */
-    padding: 5px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px;
-  }
-
-  #gradio pre {
-    background-color: transparent;
-  }
-</style>
-
-<body>
-
-
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Clinical Foundation Models</h1>
-            <h3 class="title is-3 publication-title">AAAI 2024 Spring Symposium | March 25-27, 2024</h3>
-	    <h3 class="title is-3 publication-title">Stanford University, Stanford, California</h3>
-            <div class="is-size-5">
-		<span class="author-block">
-			<a href="" style="color:#008AD7;font-weight:normal;">Gilles Clermont</a>,
-		</span>
-		<span class="author-block">
-			<a href="" style="color:#008AD7;font-weight:normal;">Artur Dubrawski</a>,
-		</span>
-		<span class="author-block">
-			<a href="" style="color:#008AD7;font-weight:normal;">Mononito Goswami</a>,
-		</span>
-		<span class="author-block">
-			<a href="" style="color:#008AD7;font-weight:normal;">Su-In Lee</a>,
-		</span>
-		<span class="author-block">
-			<a href="" style="color:#008AD7;font-weight:normal;">Xinyu (Rachel) Li</a>,
-		</span>
-		<span class="author-block">
-			<a href="https://aka.ms/tristan" style="color:#008AD7;font-weight:normal;">Tristan Naumann</a>,
-		</span>
-		<span class="author-block">
-			<a href="" style="color:#008AD7;font-weight:normal;">Frederic Sala</a>,
-		</span>
-		<span class="author-block">
-			<a href="" style="color:#008AD7;font-weight:normal;">Jimeng Sun</a>,
-		</span>
-            </div>
-
-            <br>
-            <div class="is-size-5 publication-authors">
-              <!-- <span class="author-block"><b style="color:#f68946; font-weight:normal">&#x25B6 </b>University of Southern California</b></span> -->
-              <span class="author-block"><b style="color:#008AD7; font-weight:normal">&nbsp&nbsp&#x25B6 </b> Microsoft Research</span>
-              <!-- <span class="author-block">&nbsp&nbsp<sup>*</sup>Equal Contribution</span> -->
-            </div>
-
-
-            <div class="column has-text-centered">
-              <div class="publication-links">
-                <!-- <span class="link-block">
-                  <a href="https://arxiv.org/abs/2308.03279" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span>arXiv</span>
-                  </a>
-                </span> -->
-                <!-- <span class="link-block">
-                  <a href="https://github.com/universal-ner/universal-ner" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span> -->
-                <span class="link-block">
-                  <a href="https://raw.githubusercontent.com/PrecisionHealthLLM/PrecisionHealthLLM.github.io/main/PrecisionHealthLLM_KDD-tutorial.pdf" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="far fa-images"></i>
-                    </span>
-                    <span>Slides</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="#" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fas fa-database"></i>
-                    </span>
-                    <span>Resources</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://dl.acm.org/doi/10.1145/3580305.3599568" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fas fa-share-square"></i>
-                    </span>
-                    <span>DOI</span>
-                  </a>
-                </span>
-                <!-- <span class="link-block">
-                <a href="#"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
-                  </a>
-              </span> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="hero teaser">
-    <div class="container is-max-desktop">
-      <div class="hero-body">
-        <h4 class="subtitle has-text-centered">
-            Precision Health in the Age of Large Language Models (LLMs) was presented as tutorial LS-21 at <a href="https://kdd.org/kdd2023/">KDD 2023</a> on Thursday, August 10 10am-1pm.
-            We provide the materials presented as well as additional resources for those interested in this topic.
-        </h4>
-      </div>
-    </div>
-  </section>
-
-<section class="section" id="Abstract">
-  <!-- Abstract. -->
-  <div class="columns is-centered has-text-centered">
-    <div class="column is-six-fifths">
-      <h2 class="title is-3">Abstract</h2>
-    </div>
-  </div>
-  <!-- </div> -->
-  <!--/ Abstract. -->    
-<div class="container is-max-desktop">
-
-  <div class="columns is-centered">
-    <div class="column is-full-width">
-      <div class="content has-text-justified">
-        <p>
-            Medicine today is imprecise. Among the top 20 drugs in the U.S.,
-            up to 80% of patients are non-responders. The goal of precision
-            health is to provide the right intervention for the right people at the
-            right time. The key to realize this dream is to develop a data-driven,
-            learning system that can instantly incorporate new health information to optimize care delivery and accelerate biomedical discovery.
-            In reality, however, the health ecosystem is mired in overwhelming
-            unstructured data and excruciating manual processing. For example, in cancer, standard of care often fails, and clinical trials are
-            the last hope. Yet less than 3% of patients can find a matching trial,
-            whereas 40% of trial failures simply stem from insufficient recruitment. Discovery is painfully slow as a new drug may take billions
-            of dollars and over a decade to develop.
-        </p>
-        <p>
-            In this tutorial, we will explore how large language models
-            (LLMs) can serve as a universal structuring tool to democratize
-            biomedical knowledge work and usher in an intelligence revolution in precision health. We first review background for precision
-            health and give a broad overview of the AI revolution that culminated in the development of large language models, highlighting
-            key technical innovations and prominent trends such as consolidation of AI methods across modalities. We then give an in-depth
-            review of biomedical LLMs and precision health applications, with
-            a particular focus on scaling real-world evidence generation and
-            drug discovery. To conclude, we discuss key technical challenges
-            (e.g., bias, hallucination, cost), societal ramifications (e.g., privacy,
-            regulation), as well as exciting research frontiers such as prompt
-            programming, knowledge distillation, multi-modal learning, causal
-            discovery.
-        </p>
-
-</section>
- 
-
-
-
-<section class="section" id="Resources">
-  <!-- Citation. -->
-  <div class="columns is-centered has-text-centered">
-    <div class="column is-six-fifths">
-      <h2 class="title is-3">Resources</h2>
-    </div>
-  </div>
-  <!-- </div> -->
-  <!--/ Results. -->    
-<div class="container is-max-desktop">
-
-  <div class="columns is-centered">
-    <div class="column is-full-width">
-      <div class="content has-text-justified"> 
-        <p>
-            As a resource, we provide a non-exhaustive list of papers and other resources that we referred to during the tutorial.
-            We broadly categorize resources into three categories aligned with the structure of the tutorial: Precision Health, The Intelligence Revolution, LLMs for Precision Health, Application Challenges, and Research Frontiers.
-        </p>
-
-        <p><b>Precision Health</b></p>
-        <p>
-            <ul type="1">
-                <li><a href="https://www.nature.com/articles/s41591-021-01614-0" target="_blank">AI in health and medicine</a></li>
-                <li><a href="https://www.nature.com/articles/s41586-023-05881-4" target="_blank">Foundation models for generalist medical artificial intelligence</a></li>
-            </ul>
-        </p>
-
-        <p><b>LLMs for Precision Health</b></p>
-        <p>GPT-4 in Medicine
-            <ul type="1">
-                <li><a href="https://www.pearson.com/en-au/media/2yfj24is/9780138200046.pdf" target="_blank">The AI Revolution in Medicine</a></li>
-                <li><a href="https://arxiv.org/abs/2303.13375" target="_blank">Capabilities of GPT-4 on Medical Challenge Problems</a></li>
-            </ul>
-        </p>
-        <p> Biomedical LLMs
-            <ul type="1">
-                <li>GPT-4: <a href="https://www.pearson.com/en-au/media/2yfj24is/9780138200046.pdf" target="_blank">The AI Revolution in Medicine</a></li>
-                <li>Med PaLM: <a href="https://arxiv.org/abs/2212.13138" target="_blank">Large Language Models Encode Clinical Knowledge</a></li>
-                <li>Med PaLM 2: <a href="https://arxiv.org/abs/2305.09617" target="_blank">Towards Expert-Level Medical Question Answering with Large Language Models</a></li>
-                <li>BioGPT: <a href="https://arxiv.org/abs/2210.10341" target="_blank">BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining</a></li>
-                <li>PubMedGPT / BioMedLM: <a href="https://hai.stanford.edu/news/stanford-crfm-introduces-pubmedgpt-27b" target="_blank">Stanford CRFM Introduces PubMedGPT 2.7B</a></li>
-                <li>BioMedGPT: <a href="https://arxiv.org/pdf/2308.09442.pdf">BioMedGPT: Open Multimodal Generative Pre-trained Transformer for Biomedicine</a></li>
-                <li>BioMegatron: <a href="https://arxiv.org/abs/2010.06060" target="_blank">BioMegatron: Larger Biomedical Domain Language Model</a></li>
-                <li>GatorTronGPT: <a href="https://arxiv.org/abs/2305.13523" target="_blank">A Study of Generative Large Language Model for Medical Research and Healthcare</a></li>
-                <li>Galactica: <a href="https://arxiv.org/abs/2211.09085" target="_blank">Galactica: A Large Language Model for Science</a></li>
-                <li>PubMedBERT: <a href="https://arxiv.org/abs/2007.15779" target="_blank">Domain-Specific Language Model Pretraining for Biomedical Natural Language Processing</a></li>
-                <li>ClinicalBERT: <a href="https://arxiv.org/abs/1904.03323" target="_blank">Publicly Available Clinical BERT Embeddings</a></li>
-                <li>BioBERT: <a href="https://arxiv.org/abs/1901.08746" target="_blank">BioBERT: a pre-trained biomedical language representation model for biomedical text mining</a></li>
-                <li>BioLinkBERT: <a href="https://arxiv.org/abs/2203.15827" target="_blank">LinkBERT: Pretraining Language Models with Document Links</a></li>
-                <li>SciBERT: <a href="https://arxiv.org/abs/1903.10676" target="_blank">SciBERT: A Pretrained Language Model for Scientific Text</a></li>
-                <li>DoT5: <a href="https://arxiv.org/abs/2303.13386" target="_blank">Compositional Zero-Shot Domain Transfer with Text-to-Text Models</a></li>
-                <li>SciFive: <a href="https://arxiv.org/abs/2106.03598" target="_blank">SciFive: a text-to-text transformer model for biomedical literature</a></li>
-            </ul>
-        </p>
-        <p>LLMs for Real-World Evidence
-            <ul type="1">
-                <li><a href="https://www.medrxiv.org/content/10.1101/2023.01.30.23285067v1.full" target="_blank">The Diagnostic and Triage Accuracy of the GPT-3 Artificial Intelligence Model</a></li>
-                <li><a href="https://www.nature.com/articles/s41523-023-00557-8" target="_blank">Large language model (ChatGPT) as a support tool for breast tumor board</a></li>
-                <li><a href="https://pubs.rsna.org/doi/full/10.1148/radiol.230725" target="_blank">Leveraging GPT-4 for Post Hoc Transformation of Free-text Radiology Reports into Structured Reporting: A Multilingual Feasibility Study</a></li>
-                <li><a href="https://www.nytimes.com/2023/06/26/technology/ai-health-care-documentation.html?login=smartlock&auth=login-smartlock" target="_blank">A.I. May Someday Work Medical Miracles. For Now, It Helps Do Paperwork.</a></li>
-            </ul>
-        </p>
-        <p>LLMs for Drug Discovery
-            <ul type="1">
-                <li><a href="https://www.nature.com/articles/s41587-023-01788-7" target="_blank">Drug discovery companies are customizing ChatGPT: here’s how</a></li>
-                <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8604259/" target="_blank">AI-based language models powering drug discovery and development</a></li>
-            </ul>
-        </p>
-
-        <p><b>Application Challenges</b></p>
-        <p>Bias
-            <ul type="1">
-                <li><a href="https://www.medrxiv.org/content/10.1101/2023.07.13.23292577v2.full" target="_blank">Coding Inequity: Assessing GPT-4’s Potential for Perpetuating Racial and Gender Biases in Healthcare</a></li>
-                <li><a href="https://www.statnews.com/2023/07/18/gpt4-health-disease-diagnosis-treatment-ai/" target="_blank">‘Doctors need to get on top of this’: GPT-4 displays bias in medical tasks</a></li>
-            </ul>
-        </p>
-        <p>Hallucinations
-            <ul type="1">
-                <li><a href="https://arxiv.org/abs/2202.03629" target="_blank">Survey of Hallucination in Natural Language Generation</a></li>
-                <li><a href="https://arxiv.org/abs/2305.13534" target="_blank">How Language Model Hallucinations Can Snowball</a></li>
-                <li><a href="https://arxiv.org/abs/2305.13669" target="_blank">Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment</a></li>
-                <li><a href="https://arxiv.org/abs/2305.10355" target="_blank">Evaluating Object Hallucination in Large Vision-Language Models</a></li>
-            </ul>
-        </p>
-
-        <p><b>Research Frontiers</b></p>
-        <p>Prompt Programming
-            <ul type="1">
-                <li><a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/" target="_blank">Prompt Engineering</a></li>
-                <li><a href="https://arxiv.org/abs/2005.14165" target="_blank">Language Models are Few-Shot Learners</a></li>
-                <li><a href="https://arxiv.org/abs/2201.11903" target="_blank">Chain-of-Thought Prompting Elicits Reasoning in Large Language Models</a></li>
-                <li><a href="https://arxiv.org/abs/2203.11171" target="_blank">Self-Consistency Improves Chain of Thought Reasoning in Language Models</a></li>
-                <li><a href="https://arxiv.org/abs/2210.03629" target="_blank">ReAct: Synergizing Reasoning and Acting in Language Models</a></li>
-                <li><a href="https://arxiv.org/abs/2303.17651" target="_blank">Self-Refine: Iterative Refinement with Self-Feedback</a></li>
-                <li><a href="https://arxiv.org/abs/2212.14024" target="_blank">Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP</a></li>
-                <li><a href="https://www.promptingguide.ai/papers" target="_blank">Prompt Engineering Guide Papers</a></li>
-                <li><a href="https://wenting-zhao.github.io/complex-reasoning-tutorial/" target="_blank">ACL 2023 Tutorial on Complex Reasoning in Natural Language</a></li>
-                <li><a href="https://arxiv.org/pdf/2102.07350.pdf" target="_blank">Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm</a></li>
-                <li><a href="https://arxiv.org/abs/2302.07842" target="_blank">Augmented Language Models: a Survey</a></li>
-            </ul>
-        </p>
-        <p>Retrieval-Augmented Generation (RAG)
-            <ul type="1">
-                <li><a href="https://acl2023-retrieval-lm.github.io/" target="_blank">ACL 2023 Tutorial on Retrieval-based Language Models and Applications</a></li>
-                <li><a href="https://arxiv.org/abs/2302.07842" target="_blank">Augmented Language Models: a Survey</a></li>
-                <li><a href="https://www.nature.com/articles/s41586-023-05881-4" target="_blank">Foundation models for generalist medical artificial intelligence</a></li>
-            </ul>
-        </p>
-        <p>Knowledge Distillation
-            <ul type="1">
-                <li><a href="https://arxiv.org/abs/2212.10560" target="_blank">Self-Instruct: Aligning Language Models with Self-Generated Instructions</a></li>
-                <li><a href="https://crfm.stanford.edu/2023/03/13/alpaca.html" target="_blank">Alpaca: A Strong, Replicable Instruction-Following Model</a></li>
-                <li><a href="https://lmsys.org/blog/2023-03-30-vicuna/" target="_blank">Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%* ChatGPT Quality</a></li>
-                <li><a href="https://arxiv.org/abs/2304.03277" target="_blank">Instruction Tuning with GPT-4</a></li>
-                <li><a href="https://arxiv.org/abs/2306.11644" target="_blank">Textbooks Are All You Need</a></li>
-                <li><a href="https://arxiv.org/abs/2306.08543" target="_blank">Knowledge Distillation of Large Language Models</a></li>
-                <li><a href="https://arxiv.org/abs/2305.15717" target="_blank">The False Promise of Imitating Proprietary LLMs</a></li>
-                <li><a href="https://arxiv.org/pdf/2302.02801.pdf" target="_blank">LAMPP: Language Models as Probabilistic Priors for Perception and Action</a></li>
-                <li><a href="https://arxiv.org/pdf/2305.02301.pdf" target="_blank">Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes</a></li>
-            </ul>
-        </p>
-        <p>Multi-modal learning
-            <ul type="1">
-                <li><a href="https://arxiv.org/abs/2303.00915" target="_blank">Large-Scale Domain-Specific Pretraining for Biomedical Vision-Language Processing</a></li>
-                <li><a href="https://arxiv.org/abs/2306.00890" target="_blank">LLaVA-Med: Training a Large Language-and-Vision Assistant for Biomedicine in One Day</a></li>
-                <li><a href="https://www.nature.com/articles/s41467-023-36476-2" target="_blank">Multilingual translation for zero-shot biomedical classification using BioTranslator</a></li>
-                <li><a href="https://arxiv.org/abs/2305.10688" target="_blank">MolXPT: Wrapping Molecules with Text for Generative Pre-training</a></li>
-                <li><a href="https://www.nature.com/articles/s41591-022-01981-2" target="_blank">Multimodal biomedical AI</a></li>
-                <li><a href="https://www.nature.com/articles/s41586-023-05881-4" target="_blank">Foundation models for generalist medical artificial intelligence</a></li>
-                <li><a href="https://vlp-tutorial.github.io/" target="_blank">CVPR 2023 Tutorial on Recent Advances in Vision Foundation Models</a></li>
-            </ul>
-        </p>
-        <p>Causal Discovery
-            <ul type="1">
-                <li><a href="https://arxiv.org/abs/2305.06850" target="_blank">A Causal Roadmap for Generating High-Quality Real-World Evidence</a></li>
-                <li><a href="https://arxiv.org/pdf/2305.00050.pdf" target="_blank">Causal Reasoning and Large Language Models: Opening a New Frontier for Causality</a></li>
-                <li><a href="https://arxiv.org/pdf/2306.05836.pdf" target="_blank">Can Large Language Models Infer Causation from Correlation?</a></li>
-                <li><a href="https://arxiv.org/pdf/2012.05453.pdf" target="_blank">Causal-BERT : Language models for causality detection between events expressed in text</a></li>
-                <li><a href="https://arxiv.org/pdf/2307.02390.pdf" target="_blank">Causal Discovery with Language Models as Imperfect Experts</a></li>
-            </ul>
-        </p>
-
-
-        <!-- <p>
-          Unlike the existing work that tunes the models to do diverse tasks, we present a general recipe of instruction tuning for a specific task, where the pretrained model is tuned for a broad application class such as open NER.
-          <ul type="1">
-            <li><b>Conversation-style Instruction Tuning: </b> <span style="font-size: 95%;">We adopt a conversation-style tuning format, where the language model (LM) is presented with a passage as input. Then, for each entity type that appears in the output, we transform it into a natural language question. Subsequently, we tune the LM to generate a structured output in the form of a JSON list containing all entities of the query type in the passage.
-            We consider the <mark>reference entities</mark> (highlighted below) as gold tokens and apply a language modeling objective on these tokens.</span></li>
- <div class="column is-six-fifths" style="display: flex; align-items: flex-start; justify-content: center;">  
-    <table class="GeneratedTable" style="width: 60%;">
-      <thead>
-        <tr>
-          <th>Conversation-style Instruction Tuning Template</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td style="font-size: 90%;">
-             A virtual assistant answers questions from a user based on the provided text.<br>
-    <b>User:</b> Text: <b><i>X</i></b><sub>passage</sub><br>
-    <b>Assistant:</b> I've read this text.<br>
-    <b>User:</b> What describes <b><i>t</i></b><sub>1</sub> in the text?<br>
-    <b>Assistant:</b> <mark><b><i>y</i></b><sub>1</sub></mark><br>
-    ...<br>
-    <b>User:</b> What describes <b><i>t</i></b><sub>T</sub> in the text?<br>
-    <b>Assistant:</b> <mark><b><i>y</i></b><sub>T</sub></mark><br>
-   </td>
-        </tr>
-      </tbody>
-    </table>
-    </div>
-            <li><b>Negative sampling:</b> <span style="font-size: 95%;">During tuning, we randomly sample negative entity types from the collection of all entity types that do not appear in the passage as queries and set the expected outputs as empty JSON lists. The sampling of negative entity types is done with a probability proportional to the frequency of entity types in the entire dataset. This approach greatly improves the instruction tuning results.</span></li>
- <div class="column is-six-fifths" style="display: flex; align-items: flex-start; justify-content: center;">  
-    <table class="GeneratedTable" style="width: 90%;">
-      <thead>
-    <tr>
-        <td>Negative Sampling Strategy</td>
-        <td>Movie</td>
-        <td>Restaurant</td>
-        <td>AI</td>
-        <td>Literature</td>
-        <td>Music</td>
-        <td>Politics</td>
-        <td>Science</td>
-        <td>Avg</td>
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <td>None</td>
-        <td>19.1</td>
-        <td>19.1</td>
-        <td>25.1</td>
-        <td>39.5</td>
-        <td>42.7</td>
-        <td>48.9</td>
-        <td>26.2</td>
-        <td>31.5</td>
-    </tr>
-    <tr>
-        <td>Uniform</td>
-        <td>42.5</td>
-        <td>29.0</td>
-        <td>42.5</td>
-        <td>53.3</td>
-        <td>57.4</td>
-        <td>56.8</td>
-        <td>52.6</td>
-        <td>47.7</td>
-    </tr>
-    <tr>
-        <td>Frequency</td>
-        <td>42.4</td>
-        <td>31.7</td>
-        <td>53.5</td>
-        <td>59.4</td>
-        <td>65.0</td>
-        <td>60.8</td>
-        <td>61.1</td>
-        <td>53.4</td>
-    </tr>
-    </tbody>
-</table>
-</div>
-          </ul>  
-          Please check out "UniversalNER" model checkpoint on 
-          <a href="https://huggingface.co/Universal-NER">[Models]</a>.
-        </p> -->
-      </div>
-    </div>
-  </div>
-
-
-</section>
-
-<section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>
-        @inproceedings{10.1145/3580305.3599568,
-            author = {Poon, Hoifung and Naumann, Tristan and Zhang, Sheng and Gonz\'{a}lez Hern\'{a}ndez, Javier},
-            title = {Precision Health in the Age of Large Language Models},
-            year = {2023},
-            isbn = {9798400701030},
-            publisher = {Association for Computing Machinery},
-            address = {New York, NY, USA},
-            url = {https://doi.org/10.1145/3580305.3599568},
-            doi = {10.1145/3580305.3599568},
-            booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-            pages = {5825–5826},
-            numpages = {2},
-            keywords = {artificial intelligence, large language model, precision health, machine learning},
-            location = {Long Beach, CA, USA},
-            series = {KDD '23}
-        }
-  </code></pre>
-    </div>
-</section>
-
-</body>
-
+	</body>
 </html>
