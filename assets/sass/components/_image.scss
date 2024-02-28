@@ -7,7 +7,8 @@
 /* Image */
 
 	.image {
-		border-radius: _size(border-radius);
+		/*border-radius: _size(border-radius);*/
+		border-radius: 50%;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -58,16 +59,5 @@
 			}
 		}
 		
-		&.square {
-			border-radius: 50%;
-			display: inline-block;
-			width: 50%;
-			max-width: 200px;
-			height: auto;
-			
-			img {
-				width: 100%;
-				height: auto;
-			}
 		}
 	}
